@@ -1,14 +1,11 @@
 {
 	"required": true,
-	"package": "com.example.client.mixin",
+	"package": "com.thulium.mixin.client",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"ExampleClientMixin"
+		"EntityRenderDispatcherMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
 	}
 }
