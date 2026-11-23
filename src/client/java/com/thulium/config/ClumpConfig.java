@@ -16,10 +16,8 @@ public class ClumpConfig {
     // Main mod toggle
     private boolean enabled = true;
 
-    // Search radius for nearby mobs (in blocks)
-    private double radius = 2.5;
+    private double radius = 3;
 
-    // Maximum visible mobs rendered per visual group
     private int maxRenderedPerGroup = 4;
 
     // Boost process priority (Windows / cautious attempt on Linux)
